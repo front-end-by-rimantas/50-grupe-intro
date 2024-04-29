@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "string": "node --watch ./js/duomenys/string.js",
+        "number": "node --watch ./js/duomenys/number.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],

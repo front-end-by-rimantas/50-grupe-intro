@@ -32,7 +32,7 @@ Duomenu tipai:
 - string (tekstas)
 - boolean (logine reiksme)
 - array (masyvas)
-- object (objektas)
+- object (objektas, key-value)
 - null
 - undefined
 */
