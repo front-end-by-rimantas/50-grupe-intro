@@ -19,9 +19,9 @@ console.log(3333);
 /*
 Pagrindines programavimo temos:
 - duomenu tipai
+- funkcijos
 - palyginimo salygos
 - ciklai
-- funkcijos
 - class (oop)
 - event listeners
 */
