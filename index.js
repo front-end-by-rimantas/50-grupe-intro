@@ -19,7 +19,7 @@ console.log(3333);
 /*
 Pagrindines programavimo temos:
 - duomenu tipai
-- funkcijos
++ funkcijos
 - palyginimo salygos
 - ciklai
 - class (oop)
@@ -28,9 +28,9 @@ Pagrindines programavimo temos:
 
 /*
 Duomenu tipai:
-- number (skaiciai)
-- string (tekstas)
-- boolean (logine reiksme)
++ number (skaiciai)
++ string (tekstas)
++ boolean (logine reiksme)
 - array (masyvas)
 - object (objektas, key-value)
 - null

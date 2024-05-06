@@ -92,6 +92,7 @@ console.log(price(150)); // 121
 // Dictionary: ZODIS, ZODIS, ZODIS.
 function words(w1, w2, w3) {
     let sentence = 'Dictionary: ';
+
     sentence += w1;
     sentence += ', ';
     sentence += w2;
