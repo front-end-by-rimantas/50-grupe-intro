@@ -20,7 +20,7 @@ console.log(3333);
 Pagrindines programavimo temos:
 - duomenu tipai
 + funkcijos
-- palyginimo salygos
++ palyginimo salygos
 - ciklai
 - class (oop)
 - event listeners

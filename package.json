@@ -4,6 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "mini": "node --watch ./nd/mini.js",
+        "for": "node --watch ./js/ciklai/for.js",
+        "array": "node --watch ./js/duomenys/array.js",
         "if": "node --watch ./js/palyginimas/if.js",
         "function": "node --watch ./js/funkcijos/function.js",
         "boolean": "node --watch ./js/duomenys/boolean.js",
