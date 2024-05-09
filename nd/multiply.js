@@ -11,11 +11,11 @@ function multiply(a, b) {
 }
 
 function multiply(a, b) {
-    if (typeof a ?????) {
+    if (typeof a !== 'number') {
         return 'Pirmasis parametras turi buti skaiciaus tipo.';
     }
 
-    if (b ?????) {
+    if (typeof b !== 'number') {
         return 'Antrasis parametras turi buti skaiciaus tipo.';
     }
 

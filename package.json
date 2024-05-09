@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "numberSize": "node --watch ./nd/numberSize.js",
         "typeof": "node --watch ./js/duomenys/typeof.js",
         "multiply": "node --watch ./nd/multiply.js",
         "mini": "node --watch ./nd/mini.js",

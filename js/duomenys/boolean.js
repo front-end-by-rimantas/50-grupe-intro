@@ -8,6 +8,33 @@ Boolean logikos operatoriai:
 - && (and)
 - || (or)
 - ! (not)
+
+Kaip interpertuojami kiti duomenu tipai 
+ir ju reiksmes, jei jos yra naudojamos 
+lyg boolean'ai?
+
+String:
+- jei tuscias - false
+- jei ne tuscias - true
+
+Number:
+- jei NaN - false
+- jei nulis - false
+- jei ne nulis - true
+- jei Infinity - true
+- jei -Infinity - true
+
+Array:
+- jei tuscias - true
+- jei ne tuscias - true
+
+Object:
+- jei tuscias - true
+- jei ne tuscias - true
+
+Undefined - false
+null - false
+
 */
 
 const username = 'Jonas';
@@ -105,3 +132,13 @@ console.log(!!!false);
 console.log(!!!!false);
 console.log(!!!!!false);
 console.log(!!!!!!false);
+
+console.clear();
+
+const bbb = 4 + 2;
+
+if (bbb) {
+    console.log(true);
+} else {
+    console.log(false);
+}
