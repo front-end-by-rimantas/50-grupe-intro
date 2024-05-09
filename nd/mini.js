@@ -147,3 +147,12 @@ console.log(numberCount(8, 31, 7));
 console.log(numberCount(-18, 18, 3));
 console.log(numberCount(-18, 18, 5));
 console.log(numberCount(-18, 18, 7));
+
+console.clear();
+
+function tusciaFunkcija() {
+    return false;
+}
+
+console.log(tusciaFunkcija());
+

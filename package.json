@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "typeof": "node --watch ./js/duomenys/typeof.js",
+        "multiply": "node --watch ./nd/multiply.js",
         "mini": "node --watch ./nd/mini.js",
         "for": "node --watch ./js/ciklai/for.js",
         "array": "node --watch ./js/duomenys/array.js",
