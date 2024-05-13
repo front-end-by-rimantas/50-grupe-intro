@@ -5,9 +5,7 @@ function numberSize(n) {
 
     const nAsText = '' + n;     // 'Infinity'
 
-    if (nAsText === 'NaN'
-        || nAsText === 'Infinity'
-        || nAsText === '-Infinity') {
+    if (!isFinite(n)) {
         return 'Duok normalu skaiciu 👀';
     }
 
