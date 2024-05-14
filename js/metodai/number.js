@@ -100,3 +100,7 @@ const c = 5.125;
 console.log(c);
 console.log(c.toFixed(2));
 console.log(parseFloat(c.toFixed(2)));
+
+console.log(parseFloat);
+console.log('' + parseFloat);
+console.log(parseFloat.toString());

@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "cw:polish": "node --watch ./codewars/polish.js",
+        "method:string": "node --watch ./js/metodai/string.js",
         "method:number": "node --watch ./js/metodai/number.js",
         "numberSize": "node --watch ./nd/numberSize.js",
         "typeof": "node --watch ./js/duomenys/typeof.js",
