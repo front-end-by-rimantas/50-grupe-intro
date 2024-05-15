@@ -7,6 +7,7 @@
         "cw:polish": "node --watch ./codewars/polish.js",
         "method:string": "node --watch ./js/metodai/string.js",
         "method:number": "node --watch ./js/metodai/number.js",
+        "clock": "node --watch ./nd/clock.js",
         "numberSize": "node --watch ./nd/numberSize.js",
         "typeof": "node --watch ./js/duomenys/typeof.js",
         "multiply": "node --watch ./nd/multiply.js",
