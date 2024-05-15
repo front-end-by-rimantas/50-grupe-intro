@@ -21,7 +21,7 @@ Pagrindines programavimo temos:
 - duomenu tipai
 + funkcijos
 + palyginimo salygos
-- ciklai
++ ciklai
 - class (oop)
 - event listeners
 */
@@ -31,8 +31,15 @@ Duomenu tipai:
 + number (skaiciai)
 + string (tekstas)
 + boolean (logine reiksme)
-- array (masyvas)
++ array (masyvas)
 - object (objektas, key-value)
 - null
-- undefined
++ undefined
+*/
+
+/*
+Duomenu iniciavimo budai:
+- const (default)
+- let (kai turi intencija keisti reiksme)
+- var (seniena/pirmtakas, kurio reiketu nenaudoti, nebent zinai ka darai 👀)
 */
