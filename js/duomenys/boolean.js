@@ -142,3 +142,15 @@ if (bbb) {
 } else {
     console.log(false);
 }
+
+
+console.clear();
+
+const n1 = 4;
+const n2 = '4';
+
+if (n1 === n2) {
+    console.log('Taip', n1 + n2);
+} else {
+    console.log('Ne');
+}
