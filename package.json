@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "arrow": "node --watch ./js/funkcijos/arrow.js",
         "cw:polish": "node --watch ./codewars/polish.js",
         "method:string": "node --watch ./js/metodai/string.js",
         "method:number": "node --watch ./js/metodai/number.js",
