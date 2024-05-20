@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "math": "node --watch ./js/metodai/math.js",
+        "ternary": "node --watch ./js/palyginimas/ternary.js",
         "arrow": "node --watch ./js/funkcijos/arrow.js",
         "cw:polish": "node --watch ./codewars/polish.js",
         "method:string": "node --watch ./js/metodai/string.js",
