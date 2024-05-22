@@ -156,3 +156,28 @@ function tusciaFunkcija() {
 
 console.log(tusciaFunkcija());
 
+console.clear();
+
+function reverseArrayOfNumbers(list) {
+    const rev = [];
+
+    for (let i = list.length - 1; i >= 0; i--) {
+        rev.push(list[i]);
+    }
+
+    return rev;
+}
+
+const ats = reverseArrayOfNumbers([1, 2, 3, 4, 5]);
+console.log(ats);
+
+const powerOfTwo1 = [];
+const powerOfTwo2 = [];
+
+for (let i = 0; i < 10; i++) {
+    powerOfTwo1.push(2 ** i);
+    powerOfTwo2.unshift(2 ** i);
+}
+
+console.log(powerOfTwo1);
+console.log(powerOfTwo2);
