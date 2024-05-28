@@ -121,3 +121,64 @@ const tss3 = randomData                             //15
     .filter(n => Number.isInteger(n) && n >= 0);    //15
 
 console.log(tss3);
+
+// SORT
+
+const dictionary = ['labas', 'rytas', 'asla', 'medis', 'zuvis'];
+console.log(dictionary);
+
+dictionary.sort();
+console.log(dictionary);
+
+const jonasMarks = [10, 2, 8, 11, 143, 123, 120, 12, 117, 102, 4, 1, 100, 100000, 6];
+console.log(jonasMarks);
+
+// neigiamas skaicius -> a eina i prieki
+//                  0 -> a ir b lieka savo vietose
+// teigiamas skaicius -> a eina i gala
+
+// (5, 7) => neigiamas
+// (7, 5) => teigiamas
+// (7, 7) => 0
+// (a, b) => a-b >>> ???
+
+jonasMarks.sort((a, b) => a - b);
+console.log(jonasMarks);
+
+jonasMarks.sort((a, b) => b - a);
+console.log(jonasMarks);
+
+const du = [7, 5];
+const duSorted = du[0] < du[1] ? [...du] : [du[1], du[0]];
+console.log(duSorted);
+
+console.clear();
+
+const students = [
+    { name: 'Maryte', marks: 10 },
+    { name: 'Jonas', marks: 7 },
+    { name: 'Petras', marks: 4 },
+    { name: 'Ona', marks: 2 },
+];
+
+students.sort((a, b) => a.marks - b.marks);
+console.log(students);
+
+console.log('Maziausias vidurkis:', students[0].marks);
+console.log('Maziausio autorius:', students[0].name);
+
+console.log('Didziausias vidurkis:', students.at(-1).marks);
+console.log('Didziausio autorius:', students.at(-1).name);
+
+function varduPalyginimas(a, b) {
+    if (a.name < b.name) {
+        return -1;
+    } else if (a.name === b.name) {
+        return 0;
+    } else {
+        return 1;
+    }
+}
+
+students.sort(varduPalyginimas);
+console.log(students);
