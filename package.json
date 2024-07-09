@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "default": "node --watch ./js/funkcijos/default.js",
         "new-methods": "node --watch ./qa/new-methods.js",
         "d3": "node --watch ./qa/d3.js",
         "method:array2": "node --watch ./js/metodai/array2.js",
