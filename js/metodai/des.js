@@ -105,3 +105,18 @@ console.log(Math.min(10, 7));
 const marks = [10, 2, 8, 4, 6];
 console.log(Math.max(...marks));
 console.log(Math.min(...marks));
+
+console.clear();
+
+const studentai = [
+    { vardas: 'Jonas', amzius: 99, isMarried: true },
+    { vardas: 'Maryte', amzius: 88 },
+    { vardas: 'Petras', amzius: 77 },
+    { vardas: 'Ona', amzius: 66 },
+];
+
+for (const { vardas, amzius, isMarried } of studentai) {
+    const str = `Mano vardas ${vardas} ir man ${amzius} metu (${isMarried ? '' : 'ne '}vedes).`;
+
+    console.log(str);
+}
